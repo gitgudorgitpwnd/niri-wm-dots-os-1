@@ -19,15 +19,15 @@
 //    },
 
 
-//    "niri/workspaces": {
-//        "all-outputs": false,
-//        "format": "{icon}{name}",
-//        "format-icons": {
-//            "urgent": "",
-//            "focused": "",
-//            "default": ""
-//        }
-//    },
+    "niri/workspaces": {
+        "all-outputs": false,
+        "format": "{icon}{name}",
+        "format-icons": {
+            "urgent": "",
+            "focused": "",
+            "default": ""
+        }
+    },
 //    "sway/window": {
 //        "max-length": 80,
 
