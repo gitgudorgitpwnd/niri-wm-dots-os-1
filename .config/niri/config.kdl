@@ -285,6 +285,16 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
 
+//Flatpak XDG Session
+environment {
+    // Tells Flatpaks and portals to use GNOME fallbacks
+    XDG_CURRENT_DESKTOP "niri:GNOME"
+}
+
+// Updates the D-Bus environment with the Wayland and GNOME variables
+spawn-at-startup "dbus-update-activation-environment" "--systemd" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP"
+
+
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
