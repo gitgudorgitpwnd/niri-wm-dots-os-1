@@ -1,7 +1,4 @@
 {
-
-
-
     "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 16, // Waybar height (to be removed for auto height)
@@ -174,12 +171,5 @@
 	"scroll-step": 1,
 	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
        "on-click-right": "pavucontrol"
-}
-
-
-    
-
-
-
-    
+}    
 }
