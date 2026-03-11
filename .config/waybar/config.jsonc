@@ -10,9 +10,15 @@
     // Choose the order of the modules
     "modules-left": ["niri/workspaces", "tray"],
     "modules-center": ["niri/window"],
-    "modules-right": ["network", "bluetooth", "backlight", 
-	    //"cpu", "memory", "temperature", 
-	    "pulseaudio",  "battery", "clock"],
+    "modules-right": ["network", 
+	//"bluetooth", 
+	//"backlight", 
+	//"cpu", 
+	//"memory", 
+	//"temperature", 
+	//"pulseaudio",  
+	//"battery", 
+	"clock"],
 
 //    "sway/mode": {
 //        "format": " {}"
